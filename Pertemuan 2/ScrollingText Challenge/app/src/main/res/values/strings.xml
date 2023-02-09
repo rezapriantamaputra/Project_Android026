@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Scrolling Text</string>
+    <string name="article_tittle">Beatles</string>
+    <string name="string_article_subtitle">The Beatles Anthology</string>
+    <string name="article_text">
+        The Beatles Anthology is a multimedia retrospective project consisting of a television documentary,
+        a three-volume set of double albums, and a book describing the history of the Beatles. Beatles members Paul McCartney, George Harrison and Ringo Starr participated in the making of the works, which are sometimes referred to collectively as the Anthology project, while John Lennon appears in archival interviews.
+    \n
+        \n
+        The documentary series was first broadcast in November 1995, with expanded versions released on VHS and LaserDisc in 1996 and on DVD in 2003. The documentary used interviews with the Beatles and their associates to narrate the history of the band as seen through archival footage and performances. The Anthology book, released in 2000, paralleled the documentary in presenting the groups history through quotes from interviews.
+        \n
+        \n
+        The initial volume of the album set (Anthology 1) was released the same week of the documentarys airdate, with the subsequent two volumes (Anthology 2 and Anthology 3) released in 1996. They included unreleased performances and outtakes presented in roughly chronological order, along with two new songs based on demo tapes recorded by Lennon after the group broke up: Free as a Bird" and "Real Love, both produced by Jeff Lynne.
+    </string>
+</resources>

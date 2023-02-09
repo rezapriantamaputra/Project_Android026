@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFBFB"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/article_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#9C27B0"
+        android:padding="10dp"
+        android:text="@string/article_tittle"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FF9E80"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/article_heading">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/article_subheading"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/string_article_subtitle"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="#0E0E0E"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/article"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/article_subheading"
+                android:autoLink="web"
+                android:padding="5sp"
+                android:text="@string/article_text"
+                android:textColor="#101010" />
+
+            <Button
+                android:id="@+id/add_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/article"
+                android:layout_alignParentBottom="true"
+                android:text="Add Comeent" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
